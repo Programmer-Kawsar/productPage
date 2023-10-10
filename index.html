@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="content display-flex">
+      <!-- left-sidebar start -->
+      <section class="left-sidebar">
+        <div>
+          <div class="top-heading">
+            <h3>Sort By</h3>
+            <!-- collapse-expand menu start -->
+            <div class="main-short-item display-flex">
+              <!-- collapse menu start -->
+              <div
+                class="sort-collepase display-flex aling-item-center width-50"
+              >
+                <p class="sort-collepase-text">Collapse All</p>
+                <i class="fa-regular fa-square-minus"></i>
+              </div>
+              <!-- collapse menu end -->
+              <!-- expand menu start -->
+              <div
+                class="sort-collepase display-flex aling-item-center width-50 main-color"
+              >
+                <p class="sort-collepase-text">Expand All</p>
+                <i class="fa-regular fa-square-plus"></i>
+              </div>
+              <!-- collapse menu end -->
+            </div>
+            <!-- collapse-expand menu end -->
+          </div>
+          <!-- search bar start -->
+          <div class="keyword-search-text mt-30">
+            <div
+              class="main-color display-flex aling-item-center justify-space-between"
+            >
+              <p>Keyword Search</p>
+              <i class="fa-regular fa-square-minus"></i>
+            </div>
+            <hr />
+
+            <form action="">
+              <input
+                type="text"
+                placeholder="Search by Name, Stock #, Make or mo"
+              />
+            </form>
+          </div>
+          <!-- search bar end -->
+
+          <!-- type filter start -->
+          <div class="type-filter">
+            <div
+              class="main-color display-flex aling-item-center justify-space-between mt-30"
+            >
+              <p>Type</p>
+              <i class="fa-regular fa-square-minus"></i>
+            </div>
+            <hr />
+            <form action="">
+              <input type="checkbox" id="wheel" name="wheel" />
+              <label for="wheel"> Fifth Wheel (63)</label><br />
+              <input type="checkbox" id="model" name="model" />
+              <label for="model"> Park Model (8)</label><br />
+              <input type="checkbox" id="hauler" name="hauler" />
+              <label for="hauler"> Toy Hauler (23)</label><br />
+              <input type="checkbox" id="trailer" name="trailer" />
+              <label for="trailer"> Travel Trailer (142)</label><br /><br />
+            </form>
+          </div>
+          <!-- type filter end -->
+
+          <!-- price filter start -->
+          <div class="price-filter">
+            <div
+              class="main-color display-flex aling-item-center justify-space-between"
+            >
+              <p>Price</p>
+              <i class="fa-regular fa-square-minus"></i>
+            </div>
+            <hr />
+            <form action="">
+              <div class="text-center before-after">
+                <label for="price"> $19,995 to $244,995</label>
+              </div>
+              <input type="range" id="price" name="price" />
+            </form>
+          </div>
+          <!-- price filter end -->
+          <!-- Year filter start -->
+          <div class="year-filter">
+            <div
+              class="main-color display-flex aling-item-center justify-space-between mt-30"
+            >
+              <p class="">Year</p>
+              <i class="fa-regular fa-square-minus"></i>
+            </div>
+            <hr />
+            <form action="">
+              <div class="text-center before-after">
+                <label for="year"> 2021 to 2024</label>
+              </div>
+              <input type="range" id="year" name="year" />
+            </form>
+          </div>
+          <!-- Year filter end -->
+
+          <!-- weight filter start -->
+          <div class="weight-filter">
+            <div
+              class="main-color display-flex aling-item-center justify-space-between mt-30"
+            >
+              <p>Weight</p>
+              <i class="fa-regular fa-square-minus"></i>
+            </div>
+            <hr />
+            <form action="">
+              <input type="checkbox" id="weight" name="weight" />
+              <label for="weight"> 0 </label><br />
+            </form>
+          </div>
+          <!-- weight filter end -->
+
+          <!-- type filter start -->
+          <div class="type-filter">
+            <div
+              class="main-color display-flex aling-item-center justify-space-between mt-30"
+            >
+              <p>Make</p>
+              <i class="fa-regular fa-square-minus"></i>
+            </div>
+            <hr />
+            <form action="">
+              <input type="checkbox" id="alliance" name="alliance" />
+              <label for="alliance"> Alliance (3)</label><br />
+              <input type="checkbox" id="brinkely" name="brinkely" />
+              <label for="brinkely"> Brinkely RV (1)</label><br />
+              <input type="checkbox" id="drv" name="drv" />
+              <label for="drv"> DRV (1)</label><br />
+              <input type="checkbox" id="forest" name="forest" />
+              <label for="forest"> Forest River (1)</label><br /><br />
+            </form>
+          </div>
+          <!-- type filter end -->
+        </div>
+      </section>
+      <!-- left-sidebar end -->
+
+      <!-- main content start -->
+      <section class="main-content">
+        <!-- heading start -->
+        <div class="top-heading">
+          <h1>New Vehicles for sale in orillia, ON</h1>
+        </div>
+        <!-- heading end -->
+        <!-- search item start -->
+        <div class="search-result display-flex aling-item-center">
+          <i class="fa-regular fa-circle-xmark"></i>
+          <p>Type Toy Hauler</p>
+        </div>
+        <!-- search item end -->
+        <!-- item matching start -->
+        <div class="matching-item">
+          <h5>23 Items Matching</h5>
+        </div>
+        <!-- item matching end -->
+
+        <!-- Show view filter start -->
+        <div class="main-short-item display-flex">
+          <!-- Short vehicle filter start -->
+          <div
+            class="Short-vehicle display-flex aling-item-center justify-space-between"
+          >
+            <p>Short-Vehicle</p>
+            <i class="fa-solid fa-angle-down"></i>
+          </div>
+          <!-- Short vehicle filter end -->
+
+          <!-- grid view filter start -->
+          <div
+            class="grid-view display-flex aling-item-center justify-space-between"
+          >
+            <p>Grid View</p>
+            <i class="fa-solid fa-angle-down"></i>
+          </div>
+          <!-- grid view filter end -->
+        </div>
+        <!-- Show view filter end-->
+
+        <!-- All Product start -->
+        <!-- products design start -->
+        <div class="all-products">
+          <!-- First Row Start -->
+          <div class="display-flex justify-space-between">
+            <!-- product 1 start -->
+            <div class="products-design width-50 margin-right">
+              <img src="./image/lighter.jpg" alt="bag" />
+
+              <div class="product-details">
+                <div class="product-name">
+                  <h5>2022 DRV DRVFullhouse LX455- In Stock</h5>
+                </div>
+                <!-- product initail and saving price start -->
+                <div class="display-flex justify-space-between">
+                  <!-- product-initial-price start -->
+                  <div class="product-initial-price">
+                    <p>Initial price</p>
+                    <div class="price display-flex aling-item-center">
+                      <sup>$ </sup>
+                      <h5>319,384</h5>
+                    </div>
+                    <p class="tax">+ Tax</p>
+                  </div>
+                  <!-- product-initial-price end -->
+                  <!-- product-saving-price start -->
+                  <div class="product-saving-price">
+                    <p>Savings</p>
+                    <div class="price display-flex aling-item-center">
+                      <sup>$</sup>
+                      <h5>-104,389</h5>
+                    </div>
+                    <p class="savings">Hover for details</p>
+                  </div>
+                  <!-- product-saving-price end -->
+                </div>
+                <!-- product initail and saving price start -->
+                <!-- product-dealer-price start -->
+                <div class="product-dealer-price">
+                  <p>Dealer Price</p>
+                  <div class="price display-flex aling-item-center">
+                    <sup>$ </sup>
+                    <h2>319,384</h2>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                  </div>
+                  <p class="tax">+ Tax</p>
+                </div>
+                <!-- product-dealer-price end -->
+
+                <!-- compare start -->
+                <div class="compare display-flex justify-space-between">
+                  <form action="">
+                    <label for="compare"> Compare </label>
+                    <input type="checkbox" id="compare" name="compare" />
+                  </form>
+                </div>
+                <!-- compare end -->
+
+                <!-- product bottom details start -->
+                <div class="product-bottom-details">
+                  <p>
+                    Stock #: <strong>TH-LX455-2022-1</strong>Sleeps:
+                    <strong>6</strong> Length: <strong>42.2</strong> Water Tank
+                    Capacity: <strong>100.0 (gal)</strong> Holding Tank
+                    Capacity:<strong>75.0 (gal)</strong>
+                  </p>
+                </div>
+                <!-- product bottom details end -->
+
+                <!-- button start -->
+
+                <div
+                  class="button display-flex aling-item-center justify-space-between"
+                >
+                  <b>View More Details</b>
+                  <i class="fa-solid fa-angle-right"></i>
+                </div>
+
+                <!-- button end -->
+              </div>
+            </div>
+            <!-- product 1 end -->
+
+            <!-- product 2 start -->
+            <div class="products-design width-50 margin-right">
+              <img src="./image/shirt.jpg" alt="bag" />
+
+              <div class="product-details">
+                <div class="product-name">
+                  <h5>2022 DRV DRVFullhouse LX455- In Stock</h5>
+                </div>
+
+                <!-- product-dealer-price start -->
+                <div class="product-dealer-price">
+                  <p>Dealer Price</p>
+                  <div class="price display-flex aling-item-center">
+                    <sup>$ </sup>
+                    <h2>319,384</h2>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                  </div>
+                  <p class="tax">+ Tax</p>
+                </div>
+                <!-- product-dealer-price end -->
+
+                <!-- compare start -->
+                <div class="compare display-flex justify-space-between">
+                  <form action="">
+                    <label for="compare"> Compare </label>
+                    <input type="checkbox" id="compare" name="compare" />
+                  </form>
+                </div>
+                <!-- compare end -->
+
+                <!-- product bottom details start -->
+                <div class="product-bottom-details">
+                  <p>
+                    Stock #: <strong>TH-LX455-2022-1</strong>Sleeps:
+                    <strong>6</strong> Length: <strong>42.2</strong> Water Tank
+                    Capacity: <strong>100.0 (gal)</strong> Holding Tank
+                    Capacity:<strong>75.0 (gal)</strong>
+                  </p>
+                </div>
+                <!-- product bottom details end -->
+
+                <!-- button start -->
+
+                <div
+                  class="button display-flex aling-item-center justify-space-between"
+                >
+                  <b>View More Details</b>
+                  <i class="fa-solid fa-angle-right"></i>
+                </div>
+
+                <!-- button end -->
+              </div>
+            </div>
+            <!-- product 2 end -->
+          </div>
+          <!-- First Row End -->
+
+          <!-- Second Row Start -->
+          <div class="display-flex justify-space-between">
+            <!-- product 3 start -->
+            <div class="products-design width-50 margin-right">
+              <img src="./image/shirt.jpg" alt="bag" />
+
+              <div class="product-details">
+                <div class="product-name">
+                  <h5>2022 DRV DRVFullhouse LX455- In Stock</h5>
+                </div>
+
+                <!-- product-dealer-price start -->
+                <div class="product-dealer-price">
+                  <p>Dealer Price</p>
+                  <div class="price display-flex aling-item-center">
+                    <sup>$ </sup>
+                    <h2>319,384</h2>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                  </div>
+                  <p class="tax">+ Tax</p>
+                </div>
+                <!-- product-dealer-price end -->
+
+                <!-- compare start -->
+                <div class="compare display-flex justify-space-between">
+                  <form action="">
+                    <label for="compare"> Compare </label>
+                    <input type="checkbox" id="compare" name="compare" />
+                  </form>
+                </div>
+                <!-- compare end -->
+
+                <!-- product bottom details start -->
+                <div class="product-bottom-details">
+                  <p>
+                    Stock #: <strong>TH-LX455-2022-1</strong>Sleeps:
+                    <strong>6</strong> Length: <strong>42.2</strong> Water Tank
+                    Capacity: <strong>100.0 (gal)</strong> Holding Tank
+                    Capacity:<strong>75.0 (gal)</strong>
+                  </p>
+                </div>
+                <!-- product bottom details end -->
+
+                <!-- button start -->
+
+                <div
+                  class="button display-flex aling-item-center justify-space-between"
+                >
+                  <b>View More Details</b>
+                  <i class="fa-solid fa-angle-right"></i>
+                </div>
+
+                <!-- button end -->
+              </div>
+            </div>
+            <!-- product 3 end -->
+
+            <!-- product 4 start -->
+            <div class="products-design width-50 margin-right">
+              <img src="./image/lighter.jpg" alt="bag" />
+
+              <div class="product-details">
+                <div class="product-name">
+                  <h5>2022 DRV DRVFullhouse LX455- In Stock</h5>
+                </div>
+                <!-- product-dealer-price start -->
+                <div class="product-dealer-price">
+                  <p>Dealer Price</p>
+                  <div class="price display-flex aling-item-center">
+                    <sup>$ </sup>
+                    <h2>319,384</h2>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                  </div>
+                  <p class="tax">+ Tax</p>
+                </div>
+                <!-- product-dealer-price end -->
+
+                <!-- compare start -->
+                <div class="compare display-flex justify-space-between">
+                  <form action="">
+                    <label for="compare"> Compare </label>
+                    <input type="checkbox" id="compare" name="compare" />
+                  </form>
+                </div>
+                <!-- compare end -->
+
+                <!-- product bottom details start -->
+                <div class="product-bottom-details">
+                  <p>
+                    Stock #: <strong>TH-LX455-2022-1</strong>Sleeps:
+                    <strong>6</strong> Length: <strong>42.2</strong> Water Tank
+                    Capacity: <strong>100.0 (gal)</strong>Holding Tank
+                    Capacity:<strong>75.0 (gal)</strong>
+                  </p>
+                </div>
+                <!-- product bottom details end -->
+
+                <!-- button start -->
+
+                <div
+                  class="button display-flex aling-item-center justify-space-between"
+                >
+                  <b>View More Details</b>
+                  <i class="fa-solid fa-angle-right"></i>
+                </div>
+
+                <!-- button end -->
+              </div>
+            </div>
+            <!-- product 4 end -->
+          </div>
+          <!-- Second Row End -->
+        </div>
+        <!-- products design end -->
+        <!-- All Product end -->
+      </section>
+      <!-- main content end -->
+    </div>
+  </body>
+</html>

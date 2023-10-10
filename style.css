@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 20px;
+}
+
+.display-flex {
+  display: flex;
+}
+.aling-item-center {
+  align-items: center;
+}
+.aling-item-left {
+  align-items: left;
+}
+.aling-item-right {
+  align-items: right;
+}
+.justify-space-between {
+  justify-content: space-between;
+}
+
+hr {
+  margin-top: 8px !important;
+}
+.main-color {
+  color: #868682;
+}
+p {
+  margin-bottom: 0;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.text-center {
+  text-align: center;
+}
+.before-after {
+  position: relative;
+}
+
+/* left sidbar start */
+.left-sidebar {
+  width: 25%;
+  box-shadow: 0px 0px 10px -4px #644242;
+  padding: 20px 20px;
+  border-top: 2px solid #65c0a6;
+  margin-right: 35px;
+  height: 100%;
+}
+
+.top-heading .sort-collepase-text {
+  margin-right: 10px;
+}
+
+/* search bar start */
+.keyword-search-text input {
+  width: 100% !important;
+  padding: 10px;
+  background-color: #f4f6f8;
+  border: 2px solid #eee;
+}
+/* search bar end */
+/* type filter start */
+.type-filter form input {
+  margin: 8px auto !important;
+}
+/* type filter end */
+
+/* price filter start */
+.price-filter form input {
+  width: 100% !important;
+}
+.price-filter form label {
+  box-shadow: 0px 0px 10px -4px #644242;
+  padding: 8px 15px;
+  margin-bottom: 8px;
+}
+
+.price-filter form ::after {
+  content: "";
+  left: 137px;
+  right: 0;
+  bottom: -2px;
+  width: 20px;
+  height: 10px;
+  position: absolute;
+  border-style: solid;
+  border-width: 10px 10px 0 10px;
+  border-color: #eae9e9 transparent transparent transparent;
+}
+
+input[type="range"] {
+  height: 12px;
+  background: #65c0a6;
+  border-radius: 10px;
+  outline: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* price filter end */
+
+/* year-filter start */
+.year-filter form input {
+  width: 100% !important;
+}
+.year-filter form label {
+  box-shadow: 0px 0px 10px -4px #644242;
+  padding: 8px 15px;
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.year-filter form ::after {
+  content: "";
+  left: 137px;
+  right: 0;
+  bottom: -2px;
+  width: 20px;
+  height: 10px;
+  position: absolute;
+  border-style: solid;
+  border-width: 10px 10px 0 10px;
+  border-color: #eae9e9 transparent transparent transparent;
+}
+/* year-filter end */
+
+/* left sidebar end */
+
+/* main content start */
+.main-content {
+  width: 55%;
+}
+
+/* search item start */
+.search-result {
+  background-color: #eceded;
+  width: 25%;
+  padding: 6px 13px;
+  margin: 15px 0;
+}
+.search-result p {
+  margin-left: 8px;
+}
+/* search item end */
+
+/* view filter start */
+
+.main-short-item {
+  margin-top: 30px;
+}
+.Short-vehicle {
+  width: 30%;
+  border: 2px solid black;
+  border-radius: 3px;
+  margin-right: 10px;
+  padding: 6px 10px;
+}
+.grid-view {
+  width: 25%;
+  border: 2px solid black;
+  border-radius: 3px;
+  margin-left: 10px;
+  padding: 6px 10px;
+}
+/* view filter end */
+
+/* products design start */
+.products-design {
+  box-shadow: 0px 0px 10px -4px #644242;
+  margin-top: 35px;
+  height: 100%;
+}
+.margin-left {
+  margin-left: 12px;
+}
+.margin-right {
+  margin-right: 12px;
+}
+.products-design img {
+  width: 100%;
+  height: 250px;
+}
+.products-design .product-details {
+  padding: 20px 15px;
+}
+
+.price h5 {
+  margin-left: 2px;
+}
+
+.product-initial-price .tax {
+  text-align: right;
+  margin-top: -10px;
+}
+.product-initial-price .savings {
+  margin-top: -10px;
+  color: #65c0a5;
+}
+
+.product-dealer-price {
+  margin-top: 12px;
+  width: 47%;
+}
+.product-dealer-price .price h2 {
+  margin-right: 4px;
+  color: #65c0a5;
+}
+.product-dealer-price .price sup {
+  color: #65c0a5;
+}
+.product-dealer-price .tax {
+  text-align: right;
+  margin-top: -13px;
+}
+
+/* compare start */
+.compare {
+  position: relative;
+}
+.compare form::after {
+  content: "";
+  right: 0;
+  bottom: 7px;
+  width: 70%;
+  position: absolute;
+  border: 1px solid #c7c8c9;
+}
+/* compare end */
+/* product-bottom-details start */
+.product-bottom-details p {
+  text-align: left !important;
+}
+.product-bottom-details strong {
+  margin-right: 18px;
+  position: relative;
+}
+.product-bottom-details strong::after {
+  content: "";
+  right: -14px;
+  bottom: 6px;
+  width: 6px;
+  height: 6px;
+  position: absolute;
+  border-radius: 50%;
+  background-color: black;
+}
+/* product-bottom-details end */
+/* button start */
+.product-details .button {
+  margin-top: 15px;
+  background-color: #65c0a5;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 3px;
+}
+/* button end */
+/* products design end */
+
+/* main content end */
