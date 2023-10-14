@@ -5,12 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>project</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
+
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -23,7 +18,7 @@
       <section class="left-sidebar">
         <div>
           <div class="top-heading">
-            <h3>Sort By</h3>
+            <h1>Sort By</h1>
             <!-- collapse-expand menu start -->
             <div class="main-short-item display-flex">
               <!-- collapse menu start -->
@@ -73,16 +68,18 @@
               <i class="fa-regular fa-square-minus"></i>
             </div>
             <hr />
-            <form action="">
-              <input type="checkbox" id="wheel" name="wheel" />
-              <label for="wheel"> Fifth Wheel (63)</label><br />
-              <input type="checkbox" id="model" name="model" />
-              <label for="model"> Park Model (8)</label><br />
-              <input type="checkbox" id="hauler" name="hauler" />
-              <label for="hauler"> Toy Hauler (23)</label><br />
-              <input type="checkbox" id="trailer" name="trailer" />
-              <label for="trailer"> Travel Trailer (142)</label><br /><br />
-            </form>
+            <div class="mt-20">
+              <form action="">
+                <input type="checkbox" id="wheel" name="wheel" />
+                <label for="wheel"> Fifth Wheel (63)</label><br />
+                <input type="checkbox" id="model" name="model" />
+                <label for="model"> Park Model (8)</label><br />
+                <input type="checkbox" id="hauler" name="hauler" />
+                <label for="hauler"> Toy Hauler (23)</label><br />
+                <input type="checkbox" id="trailer" name="trailer" />
+                <label for="trailer"> Travel Trailer (142)</label><br /><br />
+              </form>
+            </div>
           </div>
           <!-- type filter end -->
 
@@ -95,29 +92,35 @@
               <i class="fa-regular fa-square-minus"></i>
             </div>
             <hr />
-            <form action="">
-              <div class="text-center before-after">
-                <label for="price"> $19,995 to $244,995</label>
-              </div>
-              <input type="range" id="price" name="price" />
-            </form>
+            <div class="mt-20">
+              <form action="">
+                <div class="text-center before-after">
+                  <label for="price"> $19,995 to $244,995</label>
+                </div>
+                <input type="range" id="price" name="price" />
+              </form>
+            </div>
           </div>
           <!-- price filter end -->
+
           <!-- Year filter start -->
-          <div class="year-filter">
+
+          <div class="year-filter mt-30">
             <div
-              class="main-color display-flex aling-item-center justify-space-between mt-30"
+              class="main-color display-flex aling-item-center justify-space-between"
             >
-              <p class="">Year</p>
+              <p>Year</p>
               <i class="fa-regular fa-square-minus"></i>
             </div>
             <hr />
-            <form action="">
-              <div class="text-center before-after">
-                <label for="year"> 2021 to 2024</label>
-              </div>
-              <input type="range" id="year" name="year" />
-            </form>
+            <div class="mt-20">
+              <form action="">
+                <div class="text-center before-after">
+                  <label for="price"> 2021 to 2024</label>
+                </div>
+                <input type="range" id="price" name="price" />
+              </form>
+            </div>
           </div>
           <!-- Year filter end -->
 
@@ -130,10 +133,12 @@
               <i class="fa-regular fa-square-minus"></i>
             </div>
             <hr />
-            <form action="">
-              <input type="checkbox" id="weight" name="weight" />
-              <label for="weight"> 0 </label><br />
-            </form>
+            <div class="mt-20">
+              <form action="">
+                <input type="checkbox" id="weight" name="weight" />
+                <label for="weight"> 0 </label><br />
+              </form>
+            </div>
           </div>
           <!-- weight filter end -->
 
@@ -146,16 +151,18 @@
               <i class="fa-regular fa-square-minus"></i>
             </div>
             <hr />
-            <form action="">
-              <input type="checkbox" id="alliance" name="alliance" />
-              <label for="alliance"> Alliance (3)</label><br />
-              <input type="checkbox" id="brinkely" name="brinkely" />
-              <label for="brinkely"> Brinkely RV (1)</label><br />
-              <input type="checkbox" id="drv" name="drv" />
-              <label for="drv"> DRV (1)</label><br />
-              <input type="checkbox" id="forest" name="forest" />
-              <label for="forest"> Forest River (1)</label><br /><br />
-            </form>
+            <div class="mt-20">
+              <form action="">
+                <input type="checkbox" id="alliance" name="alliance" />
+                <label for="alliance"> Alliance (3)</label><br />
+                <input type="checkbox" id="brinkely" name="brinkely" />
+                <label for="brinkely"> Brinkely RV (1)</label><br />
+                <input type="checkbox" id="drv" name="drv" />
+                <label for="drv"> DRV (1)</label><br />
+                <input type="checkbox" id="forest" name="forest" />
+                <label for="forest"> Forest River (1)</label><br /><br />
+              </form>
+            </div>
           </div>
           <!-- type filter end -->
         </div>
@@ -177,7 +184,7 @@
         <!-- search item end -->
         <!-- item matching start -->
         <div class="matching-item">
-          <h5>23 Items Matching</h5>
+          <h4>23 Items Matching</h4>
         </div>
         <!-- item matching end -->
 
@@ -187,7 +194,7 @@
           <div
             class="Short-vehicle display-flex aling-item-center justify-space-between"
           >
-            <p>Short-Vehicle</p>
+            <p>Sort-Vehicle</p>
             <i class="fa-solid fa-angle-down"></i>
           </div>
           <!-- Short vehicle filter end -->
@@ -207,23 +214,23 @@
         <!-- products design start -->
         <div class="all-products">
           <!-- First Row Start -->
-          <div class="display-flex justify-space-between">
+          <div class="display-flex design justify-space-between">
             <!-- product 1 start -->
             <div class="products-design width-50 margin-right">
               <img src="./image/lighter.jpg" alt="bag" />
 
               <div class="product-details">
                 <div class="product-name">
-                  <h5>2022 DRV DRVFullhouse LX455- In Stock</h5>
+                  <h1>2022 DRV DRVFullhouse LX455- In Stock</h1>
                 </div>
                 <!-- product initail and saving price start -->
-                <div class="display-flex justify-space-between">
+                <div class="display-flex justify-space-between mt-20">
                   <!-- product-initial-price start -->
                   <div class="product-initial-price">
                     <p>Initial price</p>
                     <div class="price display-flex aling-item-center">
                       <sup>$ </sup>
-                      <h5>319,384</h5>
+                      <h2>319,384</h2>
                     </div>
                     <p class="tax">+ Tax</p>
                   </div>
@@ -233,7 +240,7 @@
                     <p>Savings</p>
                     <div class="price display-flex aling-item-center">
                       <sup>$</sup>
-                      <h5>-104,389</h5>
+                      <h2>-104,389</h2>
                     </div>
                     <p class="savings">Hover for details</p>
                   </div>
@@ -292,7 +299,7 @@
 
               <div class="product-details">
                 <div class="product-name">
-                  <h5>2022 DRV DRVFullhouse LX455- In Stock</h5>
+                  <h1>2022 DRV DRVFullhouse LX455- In Stock</h1>
                 </div>
 
                 <!-- product-dealer-price start -->
@@ -351,7 +358,7 @@
 
               <div class="product-details">
                 <div class="product-name">
-                  <h5>2022 DRV DRVFullhouse LX455- In Stock</h5>
+                  <h1>2022 DRV DRVFullhouse LX455- In Stock</h1>
                 </div>
 
                 <!-- product-dealer-price start -->
@@ -406,7 +413,7 @@
 
               <div class="product-details">
                 <div class="product-name">
-                  <h5>2022 DRV DRVFullhouse LX455- In Stock</h5>
+                  <h1>2022 DRV DRVFullhouse LX455- In Stock</h1>
                 </div>
                 <!-- product-dealer-price start -->
                 <div class="product-dealer-price">

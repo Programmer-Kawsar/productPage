@@ -25,6 +25,7 @@ body {
 
 hr {
   margin-top: 8px !important;
+  color: #c7c8c9;
 }
 .main-color {
   color: #868682;
@@ -39,6 +40,9 @@ p {
 
 .mt-30 {
   margin-top: 30px;
+}
+.mt-20 {
+  margin-top: 20px;
 }
 
 .text-center {
@@ -64,10 +68,11 @@ p {
 
 /* search bar start */
 .keyword-search-text input {
-  width: 100% !important;
+  width: 92% !important;
   padding: 10px;
   background-color: #f4f6f8;
   border: 2px solid #eee;
+  margin-top: 20px;
 }
 /* search bar end */
 /* type filter start */
@@ -79,6 +84,7 @@ p {
 /* price filter start */
 .price-filter form input {
   width: 100% !important;
+  margin-top: 30px;
 }
 .price-filter form label {
   box-shadow: 0px 0px 10px -4px #644242;
@@ -88,15 +94,16 @@ p {
 
 .price-filter form ::after {
   content: "";
-  left: 137px;
+  left: 144px;
   right: 0;
-  bottom: -2px;
-  width: 20px;
-  height: 10px;
+  bottom: -15px;
   position: absolute;
+  width: 0;
+  height: 0;
   border-style: solid;
-  border-width: 10px 10px 0 10px;
-  border-color: #eae9e9 transparent transparent transparent;
+  border-width: 9px 9px 0 9px;
+  border-color: #ffffff transparent transparent transparent;
+  box-shadow: 0px 0px 10px -4px #644242 !important;
 }
 
 input[type="range"] {
@@ -113,6 +120,7 @@ input[type="range"] {
 /* year-filter start */
 .year-filter form input {
   width: 100% !important;
+  margin-top: 30px;
 }
 .year-filter form label {
   box-shadow: 0px 0px 10px -4px #644242;
@@ -123,15 +131,16 @@ input[type="range"] {
 
 .year-filter form ::after {
   content: "";
-  left: 137px;
+  left: 144px;
   right: 0;
-  bottom: -2px;
-  width: 20px;
-  height: 10px;
+  bottom: -15px;
   position: absolute;
+  width: 0;
+  height: 0;
   border-style: solid;
-  border-width: 10px 10px 0 10px;
-  border-color: #eae9e9 transparent transparent transparent;
+  border-width: 9px 9px 0 9px;
+  border-color: #ffffff transparent transparent transparent;
+  box-shadow: 0px 0px 10px -4px #644242 !important;
 }
 /* year-filter end */
 
@@ -201,16 +210,14 @@ input[type="range"] {
 
 .product-initial-price .tax {
   text-align: right;
-  margin-top: -10px;
 }
-.product-initial-price .savings {
-  margin-top: -10px;
+.product-saving-price .savings {
   color: #65c0a5;
 }
 
 .product-dealer-price {
   margin-top: 12px;
-  width: 47%;
+  width: 37%;
 }
 .product-dealer-price .price h2 {
   margin-right: 4px;
@@ -221,12 +228,12 @@ input[type="range"] {
 }
 .product-dealer-price .tax {
   text-align: right;
-  margin-top: -13px;
 }
 
 /* compare start */
 .compare {
   position: relative;
+  margin-top: 10px;
 }
 .compare form::after {
   content: "";
@@ -238,6 +245,9 @@ input[type="range"] {
 }
 /* compare end */
 /* product-bottom-details start */
+.product-bottom-details {
+  margin-top: 15px;
+}
 .product-bottom-details p {
   text-align: left !important;
 }
