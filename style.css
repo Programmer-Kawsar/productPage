@@ -275,6 +275,10 @@ input[type="range"] {
   padding: 8px 12px;
   border-radius: 3px;
 }
+.product-details .button a {
+  color: white;
+  text-decoration: none;
+}
 /* button end */
 /* products design end */
 
