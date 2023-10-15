@@ -1,0 +1,79 @@
+@media only screen and (max-width: 1150px) {
+  .compare form::after {
+    width: 65%;
+  }
+}
+
+@media only screen and (max-width: 1064px) {
+  .product-initial-price {
+    font-size: 10px;
+  }
+  .product-saving-price {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .compare form::after {
+    width: 58%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .leftside-collepase-menu {
+    display: inline-block;
+  }
+  .leftside-collepase-menu :nth-child(2) {
+    margin-top: 15px;
+  }
+  .leftside-collepase-menu i {
+    margin-top: 0px !important;
+  }
+  .sort-collepase {
+    width: 100%;
+  }
+  .sidebar-filter .sidebar-filter-range form ::after {
+    left: 80px;
+  }
+  .compare form::after {
+    width: 51%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .sidebar-filter .sidebar-filter-range form ::after {
+    left: 70px;
+  }
+
+  .product-dropdown-filter {
+    font-size: 14px;
+  }
+
+  .width-100 {
+    display: block;
+  }
+  .products-design {
+    width: 100%;
+  }
+  .compare form::after {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .sidebar-filter .sidebar-filter-range form label {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .left-sidebar .checkbox-filter form label {
+    font-size: 13px;
+  }
+  .product-dropdown-filter {
+    font-size: 10px;
+  }
+  .compare form::after {
+    width: 60%;
+  }
+}

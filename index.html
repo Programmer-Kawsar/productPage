@@ -7,6 +7,7 @@
     <title>project</title>
 
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -16,11 +17,11 @@
     <div class="content display-flex">
       <!-- left-sidebar start -->
       <section class="left-sidebar">
-        <div>
+        <div class="sidebar-filter">
           <div class="top-heading">
             <h1>Sort By</h1>
             <!-- collapse-expand menu start -->
-            <div class="main-short-item display-flex">
+            <div class="leftside-collepase-menu mt-30 display-flex">
               <!-- collapse menu start -->
               <div
                 class="sort-collepase display-flex aling-item-center width-50"
@@ -60,7 +61,7 @@
           <!-- search bar end -->
 
           <!-- type filter start -->
-          <div class="type-filter">
+          <div class="checkbox-filter">
             <div
               class="main-color display-flex aling-item-center justify-space-between mt-30"
             >
@@ -84,7 +85,7 @@
           <!-- type filter end -->
 
           <!-- price filter start -->
-          <div class="price-filter">
+          <div class="sidebar-filter-range">
             <div
               class="main-color display-flex aling-item-center justify-space-between"
             >
@@ -105,7 +106,7 @@
 
           <!-- Year filter start -->
 
-          <div class="year-filter mt-30">
+          <div class="sidebar-filter-range year-filter mt-30">
             <div
               class="main-color display-flex aling-item-center justify-space-between"
             >
@@ -142,8 +143,8 @@
           </div>
           <!-- weight filter end -->
 
-          <!-- type filter start -->
-          <div class="type-filter">
+          <!-- make filter start -->
+          <div class="checkbox-filter">
             <div
               class="main-color display-flex aling-item-center justify-space-between mt-30"
             >
@@ -164,7 +165,7 @@
               </form>
             </div>
           </div>
-          <!-- type filter end -->
+          <!-- make filter end -->
         </div>
       </section>
       <!-- left-sidebar end -->
@@ -177,7 +178,7 @@
         </div>
         <!-- heading end -->
         <!-- search item start -->
-        <div class="search-result display-flex aling-item-center">
+        <div class="search-result">
           <i class="fa-regular fa-circle-xmark"></i>
           <p>Type Toy Hauler</p>
         </div>
@@ -189,10 +190,10 @@
         <!-- item matching end -->
 
         <!-- Show view filter start -->
-        <div class="main-short-item display-flex">
+        <div class="mt-30 display-flex">
           <!-- Short vehicle filter start -->
           <div
-            class="Short-vehicle display-flex aling-item-center justify-space-between"
+            class="product-dropdown-filter display-flex aling-item-center justify-space-between"
           >
             <p>Sort-Vehicle</p>
             <i class="fa-solid fa-angle-down"></i>
@@ -201,7 +202,7 @@
 
           <!-- grid view filter start -->
           <div
-            class="grid-view display-flex aling-item-center justify-space-between"
+            class="product-dropdown-filter grid-view display-flex aling-item-center justify-space-between"
           >
             <p>Grid View</p>
             <i class="fa-solid fa-angle-down"></i>
@@ -214,7 +215,7 @@
         <!-- products design start -->
         <div class="all-products">
           <!-- First Row Start -->
-          <div class="display-flex design justify-space-between">
+          <div class="width-100 display-flex design justify-space-between">
             <!-- product 1 start -->
             <div class="products-design width-50 margin-right">
               <img src="./image/lighter.jpg" alt="bag" />
@@ -271,22 +272,28 @@
                 <!-- product bottom details start -->
                 <div class="product-bottom-details">
                   <p>
-                    Stock #: <strong>TH-LX455-2022-1</strong>Sleeps:
-                    <strong>6</strong> Length: <strong>42.2</strong> Water Tank
-                    Capacity: <strong>100.0 (gal)</strong> Holding Tank
-                    Capacity:<strong>75.0 (gal)</strong>
+                    Stock #: <strong>TH-LX455-2022-1</strong
+                    ><i class="fa-solid fa-circle"></i> Sleeps:
+                    <strong>6</strong><i class="fa-solid fa-circle"></i> Length:
+                    <strong>42.2</strong
+                    ><i class="fa-solid fa-circle"></i> Water Tank Capacity:
+                    <strong>100.0 (gal)</strong
+                    ><i class="fa-solid fa-circle"></i> Capacity:<strong
+                      >75.0 (gal)</strong
+                    ><i class="fa-solid fa-circle"></i>
                   </p>
                 </div>
                 <!-- product bottom details end -->
 
                 <!-- button start -->
 
-                <div
-                  class="button display-flex aling-item-center justify-space-between"
-                >
-                  <a href="#"><b>View More Details</b></a>
-                  <i class="fa-solid fa-angle-right"></i>
-                </div>
+                <a href="#">
+                  <div
+                    class="button display-flex aling-item-center justify-space-between"
+                  >
+                    <b>View More Details</b>
+                    <i class="fa-solid fa-angle-right"></i></div
+                ></a>
 
                 <!-- button end -->
               </div>
@@ -326,22 +333,28 @@
                 <!-- product bottom details start -->
                 <div class="product-bottom-details">
                   <p>
-                    Stock #: <strong>TH-LX455-2022-1</strong>Sleeps:
-                    <strong>6</strong> Length: <strong>42.2</strong> Water Tank
-                    Capacity: <strong>100.0 (gal)</strong> Holding Tank
-                    Capacity:<strong>75.0 (gal)</strong>
+                    Stock #: <strong>TH-LX455-2022-1</strong
+                    ><i class="fa-solid fa-circle"></i> Sleeps:
+                    <strong>6</strong><i class="fa-solid fa-circle"></i> Length:
+                    <strong>42.2</strong
+                    ><i class="fa-solid fa-circle"></i> Water Tank Capacity:
+                    <strong>100.0 (gal)</strong
+                    ><i class="fa-solid fa-circle"></i> Capacity:<strong
+                      >75.0 (gal)</strong
+                    ><i class="fa-solid fa-circle"></i>
                   </p>
                 </div>
                 <!-- product bottom details end -->
 
                 <!-- button start -->
 
-                <div
-                  class="button display-flex aling-item-center justify-space-between"
-                >
-                  <a href="#"><b>View More Details</b></a>
-                  <i class="fa-solid fa-angle-right"></i>
-                </div>
+                <a href="#">
+                  <div
+                    class="button display-flex aling-item-center justify-space-between"
+                  >
+                    <b>View More Details</b>
+                    <i class="fa-solid fa-angle-right"></i></div
+                ></a>
 
                 <!-- button end -->
               </div>
@@ -351,7 +364,7 @@
           <!-- First Row End -->
 
           <!-- Second Row Start -->
-          <div class="display-flex justify-space-between">
+          <div class="width-100 display-flex justify-space-between">
             <!-- product 3 start -->
             <div class="products-design width-50 margin-right">
               <img src="./image/shirt.jpg" alt="bag" />
@@ -385,22 +398,28 @@
                 <!-- product bottom details start -->
                 <div class="product-bottom-details">
                   <p>
-                    Stock #: <strong>TH-LX455-2022-1</strong>Sleeps:
-                    <strong>6</strong> Length: <strong>42.2</strong> Water Tank
-                    Capacity: <strong>100.0 (gal)</strong> Holding Tank
-                    Capacity:<strong>75.0 (gal)</strong>
+                    Stock #: <strong>TH-LX455-2022-1</strong
+                    ><i class="fa-solid fa-circle"></i> Sleeps:
+                    <strong>6</strong><i class="fa-solid fa-circle"></i> Length:
+                    <strong>42.2</strong
+                    ><i class="fa-solid fa-circle"></i> Water Tank Capacity:
+                    <strong>100.0 (gal)</strong
+                    ><i class="fa-solid fa-circle"></i> Capacity:<strong
+                      >75.0 (gal)</strong
+                    ><i class="fa-solid fa-circle"></i>
                   </p>
                 </div>
                 <!-- product bottom details end -->
 
                 <!-- button start -->
 
-                <div
-                  class="button display-flex aling-item-center justify-space-between"
-                >
-                  <a href="#"><b>View More Details</b></a>
-                  <i class="fa-solid fa-angle-right"></i>
-                </div>
+                <a href="#">
+                  <div
+                    class="button display-flex aling-item-center justify-space-between"
+                  >
+                    <b>View More Details</b>
+                    <i class="fa-solid fa-angle-right"></i></div
+                ></a>
 
                 <!-- button end -->
               </div>
@@ -439,22 +458,28 @@
                 <!-- product bottom details start -->
                 <div class="product-bottom-details">
                   <p>
-                    Stock #: <strong>TH-LX455-2022-1</strong>Sleeps:
-                    <strong>6</strong> Length: <strong>42.2</strong> Water Tank
-                    Capacity: <strong>100.0 (gal)</strong>Holding Tank
-                    Capacity:<strong>75.0 (gal)</strong>
+                    Stock #: <strong>TH-LX455-2022-1</strong
+                    ><i class="fa-solid fa-circle"></i> Sleeps:
+                    <strong>6</strong><i class="fa-solid fa-circle"></i> Length:
+                    <strong>42.2</strong
+                    ><i class="fa-solid fa-circle"></i> Water Tank Capacity:
+                    <strong>100.0 (gal)</strong
+                    ><i class="fa-solid fa-circle"></i> Capacity:<strong
+                      >75.0 (gal)</strong
+                    ><i class="fa-solid fa-circle"></i>
                   </p>
                 </div>
                 <!-- product bottom details end -->
 
                 <!-- button start -->
-
-                <div
-                  class="button display-flex aling-item-center justify-space-between"
-                >
-                  <a href="#"><b>View More Details</b></a>
-                  <i class="fa-solid fa-angle-right"></i>
-                </div>
+                <a href="#">
+                  <div
+                    class="button display-flex aling-item-center justify-space-between"
+                  >
+                    <b>View More Details</b>
+                    <i class="fa-solid fa-angle-right"></i>
+                  </div>
+                </a>
 
                 <!-- button end -->
               </div>
